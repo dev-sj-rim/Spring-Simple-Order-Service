@@ -1,0 +1,65 @@
+# 인텔리제이 설정 파일
+.idea
+*.iml
+*.iws
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Gradle
+.gradle
+/build/
+!/build/generated-sources/annotations/
+!/build/resources/main/static/
+!/build/resources/main/templates/
+
+# Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/resources/static/
+!**/src/main/resources/templates/
+
+# 스프링 부트
+/bin/
+/out/
+*.jar
+*.war
+*.zip
+*.tar
+logs/
+*.log
+*.err
+
+# 운영체제 관련 파일
+.DS_Store
+Thumbs.db
+
+secrets.json
+
+HELP.md
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
