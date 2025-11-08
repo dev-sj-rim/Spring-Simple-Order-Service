@@ -1,0 +1,15 @@
+server:
+  port: 9192
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/order_db
+    username: user
+    password: password
+    hikari:
+      maximum-pool-size: 40

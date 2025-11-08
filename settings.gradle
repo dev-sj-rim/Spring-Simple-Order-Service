@@ -1,1 +1,9 @@
 rootProject.name = 'simple_order_service'
+
+include 'order'
+include 'inventory'
+include 'common'
+include 'common:outbox-message'
+include 'common:event-message'
+include 'common:event'
+include 'common:utils'
