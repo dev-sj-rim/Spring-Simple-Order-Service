@@ -1,4 +1,7 @@
 dependencies {
+    implementation project (':common:event-consumer-log')
+    implementation project (':common:outbox-message-relay')
+
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
